@@ -1,0 +1,123 @@
+.center-slide
+    min-height 100px
+    float-w(100%)
+    position relative
+    overflow hidden
+    
+    .slick-list 
+        overflow hidden
+    
+    a
+        outline none
+        position relative
+        
+    &__info
+        abs(block,348px,auto,135px,auto)
+        right 45px
+        
+        &__titl-block
+            float-w(100%)
+            
+        &_titl
+            display inline-block
+            background colfirm2
+            padding 10px 12px
+            min-width 180px
+            color #fff
+            font-weight 700
+            font-size 21px
+            text-align center
+            position relative
+            
+        &_titl:before
+            content '';
+            position absolute
+            display block
+            top:6px
+            left -46px
+            size(43px,43px)
+            
+            background url(IMG_SRC/flag.png)
+            bgP(center,center,contain)
+                        
+        &_titl:after
+            content '';
+            position absolute
+            display block
+            top:6px
+            right -46px
+            size(43px,43px)
+            pov(180deg)
+            background url(IMG_SRC/flag.png)
+            bgP(center,center,contain)
+        
+        h3
+            color #fff
+            font-size 30px
+            line-height 36px
+            float-w(100%)
+            margin-top 28px
+            margin-left -46px
+                
+        p
+            color #fff
+            font-size 16px
+            line-height 20px
+            float-w(100%)
+            margin-top 18px
+            margin-left -46px
+            text-align left
+        
+        
+    .slick-arrow
+        position absolute
+        size(50px,50px)
+        display block
+        bgP(center,center,contain)
+        background-color #bbbbbf
+        background-image url(IMG_SRC/stick.svg)
+        top 50%
+        margin-top -25px
+        left 0px
+        z-index 99999
+        &:hover
+            background-color #bbbbbf - 20%
+           
+    .slick-next
+        position absolute
+        size(50px,50px)
+        display block
+        bgP(center,center,contain)
+        background-color #bbbbbf
+        background-image url(IMG_SRC/stick.svg)
+        top 50%
+        margin-top -25px
+        left auto
+        right 0px
+        pov(180deg) 
+        
+    .slick-dots
+        abs(block,auto,auto,auto,0)
+        bottom 30px
+        right 190px
+        
+        
+        li
+            size(12px,12px)
+            display inline-block
+            border solid 1px #b3b3b4
+            border-radius 50%
+            background #b3b3b4
+            margin 0 7px
+            float right
+            cursor pointer
+            
+        .slick-active
+            background #fff
+            
+        button
+            display none
+            
+
+        
+   

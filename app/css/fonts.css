@@ -1,0 +1,40 @@
+/* font-family: "DejaVuSansCondensedBook"; */
+@font-face {
+    font-family: "DejaVuSansCondensedBook";
+    src: url("../fonts/DejaVuSansCondensedBook/DejaVuSansCondensedBook.eot");
+    src: url("../fonts/DejaVuSansCondensedBook/DejaVuSansCondensedBook.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DejaVuSansCondensedBook/DejaVuSansCondensedBook.woff") format("woff"),
+    url("../fonts/DejaVuSansCondensedBook/DejaVuSansCondensedBook.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "DejaVuSansCondensedBold"; */
+@font-face {
+    font-family: "DejaVuSansCondensedBold";
+    src: url("../fonts/DejaVuSansCondensedBold/DejaVuSansCondensedBold.eot");
+    src: url("../fonts/DejaVuSansCondensedBold/DejaVuSansCondensedBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DejaVuSansCondensedBold/DejaVuSansCondensedBold.woff") format("woff"),
+    url("../fonts/DejaVuSansCondensedBold/DejaVuSansCondensedBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "DejaVuSansCondensedItalic"; */
+@font-face {
+    font-family: "DejaVuSansCondensedItalic";
+    src: url("../fonts/DejaVuSansCondensedItalic/DejaVuSansCondensedItalic.eot");
+    src: url("../fonts/DejaVuSansCondensedItalic/DejaVuSansCondensedItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DejaVuSansCondensedItalic/DejaVuSansCondensedItalic.woff") format("woff"),
+    url("../fonts/DejaVuSansCondensedItalic/DejaVuSansCondensedItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "DejaVuSansCondensedBoldItalic"; */
+@font-face {
+    font-family: "DejaVuSansCondensedBoldItalic";
+    src: url("../fonts/DejaVuSansCondensedBoldItalic/DejaVuSansCondensedBoldItalic.eot");
+    src: url("../fonts/DejaVuSansCondensedBoldItalic/DejaVuSansCondensedBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DejaVuSansCondensedBoldItalic/DejaVuSansCondensedBoldItalic.woff") format("woff"),
+    url("../fonts/DejaVuSansCondensedBoldItalic/DejaVuSansCondensedBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
