@@ -1,6 +1,7 @@
 .wrap
     float(100%)
     
+    
 
     
 //.home-abs
@@ -43,18 +44,21 @@ h3
     text-align left
     font-family fonttxt
     font-weight 300
-    b
-        font-weight 700
+
      
 h2
     float-w(100%)
     display block
-    font-size 44px
-    text-align left
+    font-size 24px
     font-family fonttxt
     font-weight 300
-    b
-        font-weight 700
+     
+h3
+    float-w(100%)
+    display block
+    font-size 20px
+    font-family fonttxt
+    font-weight 300
 
 h4
     font-size 24px
@@ -73,10 +77,21 @@ h4
     min-width 300px
     clearfix()
     
+    @media screen and (min-width: 950px) and (max-width: 1249px)
+        float left
+        width 100%
+        padding 25px
+    
     
 article
     float-w(100%)
     display block
+    
+    a
+        color colfirm
+        m-speed(.3s)
+        &:hover
+            color colfirm2
     p
         font-size fontSize
         margin 20px 0
@@ -84,6 +99,9 @@ article
         font-size 20px
         float-w(100%)
     
+        
+        
+        
     
 // video
 
@@ -188,8 +206,48 @@ article
                
 // content-wrap  
 @import "blocks/center-slide.styl"
+                   
+// content-wrap  
+@import "blocks/brands.styl"
+                     
+// content-wrap  
+@import "blocks/tovar-sliders.styl"
+                       
+// content-wrap  
+@import "blocks/news-block.styl"
     
+// content-wrap  
+@import "section/footer.styl"
     
+        
+        
+.slick-arrow
+    position absolute !important
+    size(50px,50px)
+    display block
+    bgP(center,center,contain)
+    background-color #bbbbbf
+    background-image url(IMG_SRC/stick.svg)
+    top 50%
+    margin-top -25px
+    left 0px
+    z-index 99999
+    &:hover
+        background-color #bbbbbf - 20%
+           
+.slick-next
+    position absolute !important
+    size(50px,50px)
+    display block
+    bgP(center,center,contain)
+    background-color #bbbbbf
+    background-image url(IMG_SRC/stick.svg)
+    top 50%
+    margin-top -25px
+    left auto
+    right 0px
+    pov(180deg) 
+          
     
     
     

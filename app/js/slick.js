@@ -57,7 +57,7 @@
                 dots: true,
                 dotsClass: 'slick-dots',
                 draggable: true,
-                easing: 'linear',
+                easing: 'fadein',
                 edgeFriction: 0.35,
                 fade: false,
                 focusOnSelect: false,

@@ -1,0 +1,155 @@
+.torar-sliders
+    float-w(100%)
+    padding 0 5px
+    margin-top 60px
+    min-height 440px
+    position relative
+    
+    .slick-arrow
+        margin-top -60px
+    
+    
+    .slick-list
+        padding-bottom 40px
+        border-bottom-left-radius 86px
+        overflow hidden
+    
+    &__button-panel
+        float-w(100%)
+        display block
+        border-bottom solid 1px #e4e4e4
+        
+        @media screen and (min-width: 600px)
+            border-bottom solid 0px #e4e4e4
+            text-align left
+            margin-bottom 10px
+                
+        @media screen and (min-width: 300px) and (max-width: 599px)
+            border-bottom solid 0px #e4e4e4
+            text-align center
+            margin-bottom 10px
+        
+        
+    &_button
+        float left
+        background colfirm2
+        padding 15px 20px
+        width 210px
+        text-align center
+        border-top-left-radius 25px
+        color #fff
+        font-size 15px
+        display inline-block
+        border solid 1px colfirm2
+        border-bottom 1px solid #e4e4e4
+        position relative
+        top 1px
+        margin-right 15px
+        m-speed(.3s)
+        &:hover
+            background #fff
+            border-top 1px solid #e4e4e4
+            border-left 1px solid #e4e4e4
+            border-right  1px solid #e4e4e4
+            border-bottom  1px solid #fff
+            color coltxt
+            
+            
+        @media screen and (min-width: 950px) and (max-width: 1249px)
+            column(1/4)
+            font-size 12px
+            margin-right 6px
+            white-space nowrap
+            
+        @media screen and (min-width: 300px)
+            border-top-left-radius 0px
+            font-size 12px
+            margin 6px
+            white-space nowrap
+            float none
+            display inline-block
+            
+            
+    .active
+        background #fff
+        border-top 1px solid #e4e4e4
+        border-left 1px solid #e4e4e4
+        border-right  1px solid #e4e4e4
+        border-bottom  1px solid #fff
+        color coltxt
+        
+        
+        
+    &__sliderblock
+        float-w(100%)
+
+        background #fff
+        border-bottom-left-radius 86px
+        border solid 1px #e4e4e4
+        border-top #fff
+        padding-top 28px
+        
+        a.sl
+            padding 0 0px
+            m-speed(.3s)
+            outline none
+            position relative
+            &:before
+                content '';
+                position absolute
+                display block
+                height 220px
+                width 1px
+                background #e4e4e4
+                top 5px
+                right -4px
+            
+        .txt-block
+            float-w(100%)
+            display block
+            text-align center
+            margin-top 7px
+            
+        .tag
+            
+            display inline-block
+            border-bottom solid 1px
+            border-top solid 1px
+            padding 4px 10px
+            font-size 11px
+            font-weight 700
+                        
+        .titl
+            
+            display inline-block
+            padding 4px 10px
+            font-size 16px
+            font-family fontB
+            
+        .new
+            .tag
+                color #306ebd
+                        
+        .hit
+            .tag
+                color #3d9919
+                                   
+        .sale
+            .tag
+                color colfirm2
+                                              
+        .spec
+            .tag
+                color #e86d00
+            
+            
+            
+            
+            
+    .slick-dots
+        display none !important
+            
+            
+        
+
+

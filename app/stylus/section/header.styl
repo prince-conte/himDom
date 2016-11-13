@@ -4,6 +4,14 @@ header
     display block
     height 153px
     
+    @media screen and (min-width: 950px) and (max-width: 1249px)
+        height 120px
+        
+    @media screen and (min-width: 600px) and (max-width: 949px)
+        height auto
+    
+        
+    
     .content
         height 100%
         
@@ -14,11 +22,26 @@ header
     display table
     border-top-left-radius 50px
     border-bottom-right-radius 50px
+    
+    @media screen and (min-width: 950px) and (max-width: 1249px)
+        size(25%,119px)
+            
+    @media screen and (min-width: 600px) and (max-width: 949px)
+        size(265px,158px)
+        display block
+        position relative
+        margin 0 auto
+        float none
+        
+    
     img
         display block
         margin 0 auto
         position relative
         margin-top 10px
+        
+        @media screen and (min-width: 950px) and (max-width: 1249px)
+            width 50%
         
         
 .h
@@ -29,11 +52,28 @@ header
         padding-right 55px
         padding-top 28px
         
+        @media screen and (min-width: 950px) and (max-width: 1249px)
+            width 48%
+            padding 0 25px
+                
+        @media screen and (min-width: 600px) and (max-width: 949px)
+            width 100%
+            padding 25px
+            margin-top 25px
+        
         p
             color #fff
             line-height 25px
             display block
             color #bdd5f6
+            
+        @media screen and (min-width: 950px) and (max-width: 1249px)
+            font-size 12px
+            padding-top 10px
+                        
+        @media screen and (min-width: 600px) and (max-width: 949px)
+            font-size 12px
+            padding-top 10px
             
     &_button
         color #bdd5f6
@@ -49,6 +89,12 @@ header
             background #fff
             color colfirm2
             border solid 2px colfirm2
+            
+        @media screen and (min-width: 950px) and (max-width: 1249px)
+            color: #bdd5f6;
+            padding: 10px 18px;
+            margin-top: 12px;
+            
         
     &__inp-txt
         display inline-block
@@ -60,6 +106,18 @@ header
         height 33px
         float left
         margin-left 50px
+                    
+        @media screen and (min-width: 950px) and (max-width: 1249px)
+            width: 172px;
+            margin-top: 15px;
+            height: 33px;
+            margin-left: 35px;
+                            
+        @media screen and (min-width: 600px) and (max-width: 949px)
+            width: 200px;
+            margin-top: 25px;
+            height: 33px;
+            margin-left: 35px;
         
         input
             padding 8px 20px 6px
@@ -69,6 +127,7 @@ header
             text-transform uppercase
             color #bdd5f6
             placeholder-color(#bdd5f6)
+            
             
         .search-in
             position absolute
@@ -83,6 +142,8 @@ header
                 margin 8px
                 display block
                 
+
+                
     &__login-p
         float-w(240px)
         height 100px
@@ -92,8 +153,22 @@ header
         margin-top 41px
         display table
         
+        @media screen and (min-width: 950px) and (max-width: 1249px)
+            margin-top 10px
+            float-w(25%)
+            float right
+                
+        @media screen and (min-width: 600px) and (max-width: 949px)
+            width 80%
+            float left
+            margin  0 10%
+            position relative
+            text-align center
+            margin-bottom 10px
+        
         &__links-block
             padding-right 35px
+            
             
         &_log-in
             float right
@@ -101,6 +176,10 @@ header
             color #fff
             font-size 15px
             margin 4px 0
+            @media screen and (min-width: 600px) and (max-width: 949px)
+                float none
+                text-align center
+                margin 0 10px
             
         .login
             size(16px,17px)

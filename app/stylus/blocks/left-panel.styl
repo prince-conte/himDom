@@ -1,6 +1,11 @@
 .left-panel
     display inline-block
     float-w(290px)
+    @media screen and (min-width: 950px) and (max-width: 1249px)
+        width 30%
+        
+    @media screen and (min-width: 300px) and (max-width: 949px)
+        width 100%
 
     
     &__cat-menu
@@ -34,7 +39,7 @@
             border-top-left-radius 20px
             
             &__item
-                float left-w(100%)
+                float-w(100%)
                 min-height 246px
                 border-bottom 1px solid #e3e3e3
                 padding 23px 10px

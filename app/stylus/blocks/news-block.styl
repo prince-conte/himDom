@@ -1,0 +1,69 @@
+.news-block
+    float-w(100%)
+    padding 0 5px
+    @media screen and (min-width: 300px) and (max-width: 949px)
+        padding 25px
+    
+    a 
+        font-size 15px
+        color colfirm
+        display inline-block
+        padding-bottom 1px
+        border-bottom solid 1px
+    
+    &__item
+        column(1/2)
+        min-height 250px
+        @media screen and (min-width: 300px) and (max-width: 949px)
+         float-w(100%) 
+         margin 10px 0
+        h3
+            text-align left
+            position relative
+            
+            a
+                position absolute
+                display block
+                bottom -1px
+                right 0px
+                @media screen and (min-width: 950px) and (max-width: 1249px)
+                    right 5px
+                
+            
+        article
+            padding-top 30px
+            
+            
+    &_img-block
+        float left
+        size(160px,100px)
+        padding-right 30px
+        display inline-block
+        overflow hidden
+        
+        img
+            display block
+            width 100%
+            height auto
+            
+    &__info
+        float left
+        width 285px
+        display inline-block
+        
+        p
+            font-size 15px
+            color #707070
+            @media screen and (min-width: 950px) and (max-width: 1249px)
+                margin 10px 0
+                
+       
+                
+    &_date
+        float left-w(100%)
+        display block
+        color #707070
+        font-size 12px
+        
+        
+    
