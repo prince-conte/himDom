@@ -1,7 +1,7 @@
 nav
     background colfirm
     height 72px
-    @media screen and (min-width: 600px) and (max-width: 949px)
+    @media screen and (min-width: 300px) and (max-width: 949px)
         height auto
 .nav
     &__nav-block
@@ -10,7 +10,7 @@ nav
         height 72px
         padding 32px 0 22px
         margin-left -15px
-        @media screen and (min-width: 600px) and (max-width: 949px)
+        @media screen and (min-width: 300px) and (max-width: 949px)
             padding 15px 0 15px
             height auto
         
@@ -19,8 +19,14 @@ nav
             display inline-block
             padding 0 15px
             border-right solid 0px #577cc8
+            
             @media screen and (min-width: 600px) and (max-width: 949px)
                 padding 15px
+                        
+            @media screen and (min-width: 300px) and (max-width: 599px)
+                padding 10px
+                display block
+                width 100%
             
         li:last-child
             border solid 0px
@@ -36,12 +42,18 @@ nav
             &:hover
                 color colfirm2
                 
-            @media screen and (min-width: 950px) and (max-width: 1249px)
+            @media screen and (min-width: 300px) and (max-width: 1249px)
                 font-size 15px
                 
                            
             @media screen and (min-width: 600px) and (max-width: 949px)
                 font-size 12px
+                                         
+            @media screen and (min-width: 300px) and (max-width: 599px)
+                font-size 20px
+                padding-left 25px
+                text-align center
+                
                 
             
         
