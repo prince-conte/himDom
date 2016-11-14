@@ -1,0 +1,109 @@
+.cat-nav
+    float-w(100%)
+    margin 20px 0
+    display table
+    
+    &__paginator
+        float left
+        display inline-block
+        
+        a
+            display inline-block
+            padding 11px 15px
+            font-size 14px
+            color #666666
+            margin 0 2px
+            
+                   
+        a:hover
+            display inline-block
+            color #fff
+            background colfirm
+                               
+        .active
+            display inline-block
+            color #fff
+            background colfirm
+            
+        .styck
+            display inline-block
+            padding 11px 8px
+            font-size 14px
+            color colfirm !important
+            background transparent !important
+            font-weight 700
+            
+    &__cat-row
+        float right
+        display inline-table
+        height 38px
+        
+        .filtr_l-title
+            margin-top 6px
+            margin-right 25px
+        
+    &_liner
+        size(28px,28px)
+        bgP(center,center,contain)
+        background url(IMG_SRC/liner.svg)
+        position relative
+        float left
+        margin-right 70px
+        position relative
+        
+    &_liner:before
+        position absolute
+        display block
+        top 10px
+        right -53px
+        color #666666
+        font-size 9px
+        font-weight 700
+        text-transform uppercase
+        content 'списком';
+                
+    &_block
+        size(28px,28px)
+        bgP(center,center,contain)
+        background url(IMG_SRC/block.svg)
+        position relative
+        float left
+        margin-right 51px
+        position relative
+        
+    &_block:before
+        position absolute
+        display block
+        top 10px
+        right -53px
+        color #666666
+        font-size 9px
+        font-weight 700
+        text-transform uppercase
+        content 'плиткой';
+        
+    &_liner:hover
+        background url(IMG_SRC/liner-a.svg)
+
+               
+._liner_active
+    background url(IMG_SRC/liner-a.svg)
+._liner_active::before
+    color colfirm
+                
+    &_block:hover
+        background url(IMG_SRC/liner-a.svg)
+               
+._block_active
+    background url(IMG_SRC/block-a.svg)
+._block_active::before
+    color colfirm       
+        
+    
+            
+        
+            
+            
+            
+            
+            

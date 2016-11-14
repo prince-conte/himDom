@@ -34,16 +34,26 @@ nav
     height "calc(%s + 70px)" % v !important
     background: url(../img/fakebg.png);
     z-index 99
+.phbg
+    position absolute
+    display block
+    width 100%
+    height 100%
+    background #000
+    opacity .6
+    top 0px
+    left 0px
     
     
-h1, 
-h3
+h1
     float-w(100%)
     display block
-    font-size 36px
+    font-size 28px
     text-align left
     font-family fonttxt
-    font-weight 300
+    font-weight 400
+    line-height 46px
+    margin-bottom 10px
 
      
 h2
@@ -184,7 +194,15 @@ article
         
         
     
-    
+.baner
+    float-w(100%)
+    display block
+        img
+            display block
+            width 100%
+            height auto
+
+        
     
   
 
@@ -218,6 +236,21 @@ article
     
 // content-wrap  
 @import "section/footer.styl"
+      
+// content-wrap  
+@import "blocks/paginator.styl"
+        
+// content-wrap  
+@import "blocks/filtr.styl"
+           
+// content-wrap  
+@import "blocks/cat-nav.styl"
+              
+// content-wrap  
+@import "blocks/catalog-plitka.styl"
+                
+// content-wrap  
+@import "blocks/tovar-popup.styl"
     
         
         
@@ -252,86 +285,54 @@ article
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-//@media (max-width: 1400px) and (min-width: 1280px)
-    
-    
-@media (max-width: 1279px) and (min-width: 1024px)
- 
-    .content 
-        width 100%
-        padding 0 25px
-        
-    .block__phone
-        
-        span
-            font-size 14px
-        
-
-@media (max-width: 1023px) and (min-width: 768px)
-
- 
-    .content 
-        width 100%
-        padding 0 25px
-        
-    .block__phone
-        
-        span
-            font-size 14px
             
+.new
+    .torar-sliders_tag
+        color #306ebd
+                        
+.hit
+    .torar-sliders_tag
+        color #3d9919
+                                   
+.sale
+    .torar-sliders_tag
+        color colfirm2
+                                              
+.spec
+    .torar-sliders_tag
+        color #e86d00
+             
     
-@media (max-width: 767px)
-    
-    
-    
+.inp-button-block
+    float-w(100%)
+    display block
+    input[type="submit"]
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(169, 169, 169);
+        border-radius: 3px;
+        background-image: -moz-linear-gradient( 90deg, rgb(203,202,202) 0%, rgb(253,253,253) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(203,202,202) 0%, rgb(253,253,253) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(203,202,202) 0%, rgb(253,253,253) 100%);
+        font-size 14px
+        line-height 35px
+        padding 0 30px
         
-    article
-        p
-            font-size 16px
- 
-    .content 
-        width 100%
-        padding 0 15px
-        
-    .block__phone
-        
-        span
-            font-size 14px
-            
-    
-    h1, 
-    h3
-        font-size 22px
-        b
-        font-weight 700
-     
-    h2
-        font-size 24px
+    input[type="submit"]:disabled
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(173, 173, 173);
+        color: #676666;
+        border-radius: 3px;
+        background-image: -moz-linear-gradient( 90deg, rgb(195,193,193) 0%, rgb(213,212,212) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(195,193,193) 0%, rgb(213,212,212) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(195,193,193) 0%, rgb(213,212,212) 100%);
+        margin-left 20px
 
 
-    h4
-        font-size 16px
-        
-        
-  
-    .button-block
-        float-w(100%)
-        margin-top 5px
+
     
-        .button
-            padding 8px 28px
-            font-size 14px
-            m-speed(0.3s)
     
+    
+    
+   

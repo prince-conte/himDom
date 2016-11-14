@@ -1,0 +1,99 @@
+colorBand = #666666
+
+.filtr
+    float-w(100%)
+    padding 20px 50px
+    background #e2e0e0
+    min-height 155px
+    margin-top 18px
+    
+    &__l-chekbox
+        float-w(100%)
+        display block
+        margin-bottom 30px
+        
+    .l2
+        margin-bottom 15px
+        
+        .filtr__l-item
+            margin-left 50px
+        .filtr__l-item:first-child
+            margin-left 0px
+            
+        
+        
+        
+    &_l-title
+        color #666666
+        font-size 14px
+        text-transform uppercase
+        display inline-block
+        margin-right 5px
+        font-weight 700
+        float left
+    &__l-item
+        float left
+        display inline-block
+        margin-left 15px
+        cursor pointer
+        
+        .torar-sliders_tag
+             position relative
+             top -2px
+             margin-left 20px
+
+        
+    &_l-item-titl
+        float left
+        display inline-block
+        color colorBand
+        position relative
+        top -1px
+        margin-left 15px
+                
+    &_l-item-tag-titl
+        float left
+        display inline-block
+        color colorBand
+        border-bottom: solid 1px;
+        border-top: solid 1px;
+        padding: 4px 10px;
+        font-size: 11px;
+        font-weight: 700;
+        
+        
+    &_l-check
+        display inline-block
+        float left
+        size(18px,18px)
+        background #fff
+        border-radius 2px
+        border solid 1px 
+        color #c7c4c4
+        position relative
+        top -1px
+        
+    .active
+        colorBand = colfirm
+        .filtr_l-check
+            color colorBand
+        .filtr_l-item-titl
+            color colorBand
+            
+        .filtr_l-check:before
+            content ''
+            position absolute
+            top 2px
+            left 2px
+            display block
+            size(12px,10px) 
+            bgP(center,center, contain)
+            background url(IMG_SRC/check.svg)
+        
+    &__l-item:hover
+        colorBand = colfirm
+        .filtr_l-check
+            color colorBand
+        .filtr_l-item-titl
+            color colorBand
+            

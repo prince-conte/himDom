@@ -1,0 +1,102 @@
+.tovar-popup
+    position fixed
+    width 100%
+    height 100%
+    display block
+    z-index 99999
+    
+    
+    
+    
+    &__tabs
+        position absolute
+        display table
+        size(100%,100%)
+        top 0px
+        left 0px
+        
+    &__box
+        position relative
+        margin 0 auto
+        display block
+        width 610px
+        background #fff
+    
+    &__box-body
+        padding 32px 17px
+        width 100%
+        min-height 560px
+        
+    &__img-block
+        float left
+        size(225px,270px)
+        display table
+        img
+            width 100%
+            height auto
+            
+    &__tovar-info
+        float-w(350px)
+        min-height 270px
+        display inline-block
+        padding 14px 24px
+        
+        h2
+            margin-bottom 0px
+        
+        p
+            font-size 14px
+            line-height 18px
+            padding  0
+            margin-top 15px
+            
+    &__firma
+        float left
+        display block
+        width 225px
+        height auto
+        
+        img
+            width 100%
+            height auto
+            display block
+            
+    &__close
+        position absolute
+        display block
+        size(23px,23px)
+        top 13px
+        right 13px
+        
+        span
+            position absolute
+            top 11px
+            left 0px
+            width 100%
+            height 2px
+            background #bfbfbf
+            pov(45deg)
+            
+        &:before
+            content '';
+            position absolute
+            top 11px
+            left 0px
+            width 100%
+            height 2px
+            background #bfbfbf
+            pov(132deg)
+            
+    &__close:hover
+        span 
+            background colfirm2
+            
+        &:before
+            background colfirm2
+            
+        
+            
+            
+        
+        
+    

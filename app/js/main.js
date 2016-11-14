@@ -11,6 +11,12 @@ jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destinatio
 return false;
 });
   
+ 
+
+$("#tovar-popup-close").click(function () { 
+ $('.tovar-popup').fadeOut(500);  
+});
+     
      
 $("#tab1").click(function () {
 
