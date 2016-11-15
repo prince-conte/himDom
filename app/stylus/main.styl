@@ -71,10 +71,33 @@ h3
     font-weight 300
 
 h4
-    font-size 24px
-    color coltxt
+    font-size 18px
+    float-w(100%)
+    color #a0a0a0
     text-align left
     font-weight 300
+
+h5
+    font-size 17px
+    float-w(100%)
+    color #a0a0a0
+    text-align left
+    font-weight 300
+
+h6
+    font-size 16px
+    float-w(100%)
+    color #a0a0a0
+    text-align left
+    font-weight 300
+    
+    
+
+    
+    
+    
+    
+    
 
     
 
@@ -108,6 +131,157 @@ article
         line-height: 1.5;
         font-size 15px
         float-w(100%)
+        
+    
+    
+    
+    ul  
+        float: left;
+        width: 100%;
+        padding-bottom: 8px;
+        margin-bottom: 18px;
+    
+        li  
+            position: relative;
+            float: left;
+            width: 100%;
+            font-size: 15px;
+            padding: 12px 0;
+            padding-left: 17px; 
+
+
+        li::before  
+            content: '';
+            position: absolute;
+            left: 0px;
+            top: 19px;
+            width: 6px;
+            height: 6px;
+            background: colfirm;
+            border-radius: 50%;   
+    
+
+    
+    ol  
+        float: left;
+        width: 100%;
+        padding-bottom: 8px;
+        margin-bottom: 18px;
+        counter-reset: li;
+        padding: 0;
+        list-style: none;
+        margin-left: 18px;
+    
+        li  
+            position: relative;
+            float: left;
+            width: 100%;
+            font-size: 15px;
+            padding: 12px 0;
+    
+
+    
+        li::before  
+            content: counter(li);
+            content: counter(li) '. ';
+            counter-increment: li;
+            position: absolute;
+            top: 10px;
+            left: -2em;
+            width: 2em;
+            padding: 4px 0;
+            text-align: center;
+            font-size: 15px;
+            font-weight 700
+   
+    
+            
+    .comment
+        padding 28px 30px
+        font-style italic
+        background #f1f1f1
+        color #878787
+  
+            
+        
+        
+    a
+        color colfirm
+            
+            
+    a:hover
+        border-bottom solid 1px
+            
+    a:visited
+        color #839bba
+            
+    b 
+        font-weight 700
+            
+    i
+        color #777777
+        font-style italic
+            
+            
+.button
+    display inline-block
+    border-radius: 3px;
+    background-image: -moz-linear-gradient( 90deg, rgb(17,91,172) 0%, rgb(60,118,196) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(17,91,172) 0%, rgb(60,118,196) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(17,91,172) 0%, rgb(60,118,196) 100%);
+    padding 10px 28px
+    font-size 14px
+    font-weight 700
+    color #fff
+    width auto
+    display inline-block
+            
+            
+.button:hover
+    background-image: -moz-linear-gradient( 90deg, rgb(233,88,102) 0%, rgb(250,128,141) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(233,88,102) 0%, rgb(250,128,141) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(233,88,102) 0%, rgb(250,128,141) 100%);
+    color #fff
+    
+.button:disabled
+    
+    background #e5e3e3
+
+
+.big-button
+    font-size 18px
+
+
+form  
+    float-w(100%)
+    display inline-block
+    margin 10px 0
+    
+    input
+        float left
+        display block
+        padding 10px 15px
+        border solid 1px #dadada
+        border-radius 5px
+        font-size 14px
+        
+        placeholder-color(#b5b5b5)
+        
+    input:focus
+        border solid 1px #6298ce
+        placeholder-color(coltxt)
+
+        
+    input:invalid
+        border solid 1px #fb939d
+        placeholder-color(coltxt)
+        
+    input:valid
+        border solid 1px #b0dcad
+        placeholder-color(coltxt)
+
+
+
     
         
         
@@ -257,6 +431,9 @@ article
                       
 // content-wrap  
 @import "blocks/catalog-line.styl"
+                          
+// content-wrap  
+@import "blocks/about.styl"
     
         
         
