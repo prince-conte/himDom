@@ -114,7 +114,11 @@ h6
         float left
         width 100%
         padding 25px
-    
+        
+    @media screen and (min-width: 300px) and (max-width: 949px)
+        float left
+        width 100%
+        padding 20px
     
 article
     float-w(100%)
@@ -242,6 +246,7 @@ article
     background-image: -webkit-linear-gradient( 90deg, rgb(233,88,102) 0%, rgb(250,128,141) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(233,88,102) 0%, rgb(250,128,141) 100%);
     color #fff
+    border-bottom: solid 0px;
     
 .button:disabled
     
@@ -327,8 +332,8 @@ form
         font-weight 700
         
     .button:hover 
-        border solid 1px #fff
         background transparent
+        
 
         
         
@@ -371,10 +376,11 @@ form
 .baner
     float-w(100%)
     display block
-        img
-            display block
-            width 100%
-            height auto
+    img
+        display block
+        width 100%
+        height auto
+
 
         
     
@@ -489,6 +495,8 @@ form
 .inp-button-block
     float-w(100%)
     display block
+    @media screen and (min-width: 300px) and (max-width: 700px)
+        text-align center
     input[type="submit"]
         border-style: solid;
         border-width: 1px;
@@ -500,6 +508,12 @@ form
         font-size 14px
         line-height 35px
         padding 0 30px
+        margin-right  20px
+        @media screen and (min-width: 300px) and (max-width: 700px)
+            float none
+            display inline-block
+            margin 10px
+            margin-right  0px
         
     input[type="submit"]:disabled
         border-style: solid;
@@ -510,7 +524,7 @@ form
         background-image: -moz-linear-gradient( 90deg, rgb(195,193,193) 0%, rgb(213,212,212) 100%);
         background-image: -webkit-linear-gradient( 90deg, rgb(195,193,193) 0%, rgb(213,212,212) 100%);
         background-image: -ms-linear-gradient( 90deg, rgb(195,193,193) 0%, rgb(213,212,212) 100%);
-        margin-left 20px
+        
 
 
 

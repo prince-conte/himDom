@@ -11,10 +11,23 @@
         display inline-block
         margin-bottom 3%
         position relative
+        
+        @media screen and (min-width: 600px) and (max-width: 949px)
+            column(1/2, $cycle: 2)
+            margin-bottom 3%
+            max-width none
+        
+        @media screen and (min-width: 300px) and (max-width: 599px)
+            float left
+            width 100%
+            max-width 100%
+            margin-bottom 25px
 
         .torar-sliders_titl
             text-align center
             font-size 18px
+            float left
+            width 100%
             
         
     &_firma
