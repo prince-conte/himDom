@@ -107,7 +107,7 @@ h6
     display block
     margin 0 auto
     max-width WRAPPER_WIDTH
-    min-width 300px
+    min-width 270px
     clearfix()
     
     @media screen and (min-width: 950px) and (max-width: 1249px)
@@ -115,10 +115,15 @@ h6
         width 100%
         padding 25px
         
-    @media screen and (min-width: 300px) and (max-width: 949px)
+    @media screen and (min-width: 600px) and (max-width: 949px)
         float left
         width 100%
-        padding 20px
+        padding 10px
+            
+    @media screen and (min-width: 300px) and (max-width: 599px)
+        float left
+        width 100%
+        padding 0px
     
 article
     float-w(100%)

@@ -36,6 +36,8 @@
         display block
         padding 0 30px
         position relative
+        @media screen and (min-width: 300px) and (max-width: 949px)
+            padding 0
         
         
     &__item-body
@@ -43,13 +45,16 @@
         float-w(100%)
         display block
         border-bottom solid 1px #dddddd
-        
+        @media screen and (min-width: 300px) and (max-width: 949px)
+            border-bottom solid 0px #dddddd
         
     &__img-block
         float-w(160px)
         padding-top 38px
         min-height 185px
         overflow hidden
+        @media screen and (min-width: 300px) and (max-width: 599px)
+            width 100%
     
         
         img
@@ -67,6 +72,11 @@
         right 29px
         width 110px
         
+        @media screen and (min-width: 300px) and (max-width: 599px)
+            top: 10px;
+            right: 6px;
+            width: 60px;
+        
         img
             width 100%
             height auto
@@ -78,4 +88,58 @@
         padding-top 35px
         width 640px
         padding-left 30px
+        
+        @media screen and (min-width: 300px) and (max-width: 1100px)
+            padding-left 0
+            width 100%
+            
+            
+            
+ @media screen and (min-width: 300px) and (max-width: 1100px)    
+            
+            
+    .catalog-line
+        float-w(100%)
+        background #fff
+        border solid 1px #dddddd
+        min-height none
+    
+        .catalog-plitka_weight
+            text-align left
+    
+        .torar-sliders_tag
+            width 100%
+            text-align center
+    
+        .tech-table__column-one
+            width 100%
+            border solid 1px borderC
+    
+        .tech-table__column-two
+            width 100%
+            border solid 1px borderC
+    
+        .tech-table__column-three
+            width 100%
+            border solid 1px borderC
+    
+        .tech-table__column-four
+            width 100%
+            border solid 1px borderC
+        
+        .tech-table__column-five
+            width 100%
+            border solid 1px borderC
+        
+        .tech-table__line span
+            font-size 100%
+
+ 
+
+            
+            
+            
+            
+            
+            
         

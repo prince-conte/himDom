@@ -5,8 +5,9 @@
     display block
     z-index 99999
     
+
     
-    
+
     
     &__tabs
         position absolute
@@ -15,17 +16,40 @@
         top 0px
         left 0px
         
+        @media screen and (min-width: 600px) and (max-width: 945px)
+            padding 20px
+                
+        @media screen and (min-width: 300px) and (max-width: 599px)
+            padding 00px
+            
+        
     &__box
         position relative
         margin 0 auto
         display block
         width 629px
         background #fff
+        @media screen and (min-width: 300px) and (max-width: 949px)
+            float left
+            width 100%
+            overflow-y scroll
+            position static
     
     &__box-body
         padding 32px 17px
         width 100%
         min-height 560px
+        @media screen and (min-width: 300px) and (max-width: 949px)
+            float left
+            width 100%
+            height 700px
+            
+        @media screen and (min-width: 300px) and (max-width: 949px)
+            float left
+            width 100%
+            height 400px
+    
+        
         
     &__img-block
         float left
@@ -40,6 +64,9 @@
         min-height 270px
         display inline-block
         padding 14px 24px
+        @media screen and (min-width: 300px) and (max-width: 599px)
+            width 100%
+            padding 14px 0
         
         h2
             margin-bottom 0px
@@ -94,6 +121,56 @@
         &:before
             background colfirm2
             
+        
+
+        
+    
+@media screen and (min-width: 800px) and (max-width: 1100px)
+    
+    .tovar-popup 
+        
+        .tech-table
+            border solid 1px #d3d2d2
+            
+        .tech-table__column-one
+            width 160px
+            margin 0px
+            border-right solid 1px #d3d2d2
+            border-bottom 0px solid
+
+    
+        .tech-table__column-two
+            width 85px
+            margin 0px
+            border-right solid 1px #d3d2d2
+            border-bottom 0px solid
+
+    
+        .tech-table__column-three
+            width 120px
+            margin 0px
+            border-right solid 1px #d3d2d2
+            border-bottom 0px solid
+
+    
+        .tech-table__column-four
+            width 69px
+            margin 0px
+            border-right solid 1px #d3d2d2
+            border-bottom 0px solid
+
+        
+        .tech-table__column-five
+            width 39px
+            margin 0px
+            border-right solid 1px #d3d2d2
+            border-bottom 0px solid
+
+        
+        .tech-table__line span
+            font-size 10px
+            margin 0px
+    
         
             
             
